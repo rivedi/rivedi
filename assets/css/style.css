@@ -116,14 +116,15 @@ nav a:hover {
     padding: 2rem 5%;
 }
 
-.hero { 
+.hero {
     text-align: center; 
     padding: 5rem 2rem 3rem 2rem;
-    background: linear-gradient(135deg, #0a1628 0%, #1e3a5f 50%, #2c5282 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #e8f1ff 50%, #f0f7ff 100%);
     border-radius: 12px;
     margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 0 2rem #0a2540; /* Blue "glow" around hero */
 }
 
 .hero::before {
