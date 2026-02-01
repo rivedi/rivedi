@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cdn.jsdelivr.net/gh/pedroborges/xml-sitemap-stylesheet@master/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://jazdibar.com/</loc>
     <lastmod>2026-01-31</lastmod>
@@ -10,6 +12,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jazdibar.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jazdibar.com/es/" />
   </url>
+
   <url>
     <loc>https://jazdibar.com/es/</loc>
     <lastmod>2026-01-31</lastmod>
@@ -19,6 +22,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jazdibar.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jazdibar.com/es/" />
   </url>
+
   <url>
     <loc>https://jazdibar.com/about/</loc>
     <lastmod>2026-01-31</lastmod>
@@ -28,6 +32,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jazdibar.com/about/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jazdibar.com/es/about/" />
   </url>
+
   <url>
     <loc>https://jazdibar.com/es/about/</loc>
     <lastmod>2026-01-31</lastmod>
@@ -37,4 +42,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jazdibar.com/about/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jazdibar.com/es/about/" />
   </url>
+
 </urlset>
