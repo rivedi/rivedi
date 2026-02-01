@@ -116,7 +116,8 @@ nav a:hover {
     padding: 2rem 5%;
 }
 
-.hero {
+/* Hero Section - Enhanced with subtle gradient and color */
+.hero { 
     text-align: center; 
     padding: 5rem 2rem 3rem 2rem;
     background: linear-gradient(135deg, #f8fafc 0%, #e8f1ff 50%, #f0f7ff 100%);
@@ -124,7 +125,6 @@ nav a:hover {
     margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 0 2rem #0a2540; /* Blue "glow" around hero */
 }
 
 .hero::before {
@@ -134,12 +134,12 @@ nav a:hover {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--accent) 0%, #ffd700 100%);
+    background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
 }
 
 .hero h1 { 
     font-size: 2.5rem; 
-    background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 100%);
+    background: linear-gradient(135deg, #0056b3 0%, #003d82 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -150,7 +150,7 @@ nav a:hover {
 
 .hero p { 
     font-size: 1.2rem; 
-    color: #d1d5db; /* Light gray text for readability on dark blue */
+    color: #475569; 
     max-width: 700px; 
     margin: 0 auto 2.5rem auto; 
 }
