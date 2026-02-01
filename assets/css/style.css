@@ -119,16 +119,23 @@ nav a:hover {
 .hero-wrapper {
     background-color: #0a2540; /* Deep blue */
     padding: 2rem;
-    margin: -2rem -5%; /* Extend to container edges */
+    margin: -2rem calc(-50vw + 50%); /* Extend to full viewport width */
     margin-bottom: 2rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
-/* Hero Section - Enhanced with subtle gradient and color */
-.hero { 
+/* Adjust hero to stay centered */
+.hero {
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center; 
     padding: 5rem 2rem 3rem 2rem;
     background: linear-gradient(135deg, #f8fafc 0%, #e8f1ff 50%, #f0f7ff 100%);
     border-radius: 12px;
-    margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
 }
