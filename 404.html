@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" id="html-tag">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RVFSHX2TQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1RVFSHX2TQ');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Dra. Jazmín Díaz-Barrios</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+	<link rel="manifest" href="/assets/site.webmanifest">
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<meta name="msapplication-TileColor" content="#0056b3">
+	<meta name="theme-color" content="#0056b3">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 4rem 2rem;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #0056b3 0%, #003d82 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 0;
+            line-height: 1;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            margin: 1.5rem 0;
+            color: #475569;
+        }
+        .error-description {
+            font-size: 1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .lang-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body id="top">
+
+<header>
+    <div class="logo">
+        <a href="/" id="logo-link"><strong>Dr. Jazmín Díaz-Barrios, PhD | Strategic Management Consultant & Researcher</strong></a>
+    </div>
+    <nav>
+        <a href="/" id="nav-home">Home</a>
+		<a href="/#services" id="nav-services">Services</a>
+		<a href="/#publications-section" id="nav-publications">Publications</a>
+        <a href="/about/" id="nav-about">About & CV</a>
+        <a href="http://presupuesto-jazdibar.blogspot.com/" target="_blank">Blog ↗</a>
+        <a href="/es/" class="lang-switch" id="lang-switch" title="Ver en Español">ES</a>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        
+        <!-- English Version -->
+        <div id="content-en">
+            <p class="error-message">Page Not Found</p>
+            <p class="error-description">
+                The page you're looking for doesn't exist or has been moved. 
+                Let's get you back on track.
+            </p>
+            <div class="cta-group">
+                <a href="/" class="cta-button">Go to Homepage</a>
+                <a href="/#services" class="cta-button btn-secondary">View Services</a>
+            </div>
+        </div>
+
+        <!-- Spanish Version -->
+        <div id="content-es" class="lang-hidden">
+            <p class="error-message">Página No Encontrada</p>
+            <p class="error-description">
+                La página que buscas no existe o ha sido movida. 
+                Volvamos al camino correcto.
+            </p>
+            <div class="cta-group">
+                <a href="/es/" class="cta-button">Ir al Inicio</a>
+                <a href="/es/#services" class="cta-button btn-secondary">Ver Servicios</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container footer-content">
+        <div class="academic-links">
+			<a href="https://linkedin.com/in/jazmin-diaz-barrios-4127769/" target="_blank">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=-rFtH_8AAAAJ&hl=en" target="_blank">Google Scholar</a>
+            <a href="https://www.researchgate.net/profile/Jazmin_Diaz" target="_blank">ResearchGate</a>
+            <a href="https://www.adscientificindex.com/scientist/jazmin-diaz-barrios/5007111" target="_blank">AD Scientific Index</a>
+            <a href="https://www.webofscience.com/wos/author/record/W-6613-2018" target="_blank">Web of Science</a>
+            <a href="https://luz.academia.edu/JazminDiazBarrios" target="_blank">Academia.edu</a>
+            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1413552" target="_blank">SSRN Papers</a>
+        </div>
+		<p class="copyright" id="copyright">&copy; 2026 Dr. Jazmín Díaz-Barrios. All rights reserved.</p>
+	</div>
+</footer>
+
+<script>
+// Detect if URL contains /es/ and switch language accordingly
+(function() {
+    const isSpanish = window.location.pathname.includes('/es/');
+    
+    if (isSpanish) {
+        // Switch to Spanish
+        document.getElementById('html-tag').lang = 'es';
+        document.title = 'Página No Encontrada | Dra. Jazmín Díaz-Barrios';
+        
+        // Hide English, show Spanish
+        document.getElementById('content-en').classList.add('lang-hidden');
+        document.getElementById('content-es').classList.remove('lang-hidden');
+        
+        // Update navigation
+        document.getElementById('logo-link').href = '/es/';
+        document.getElementById('logo-link').innerHTML = '<strong>Dra. Jazmín Díaz-Barrios, PhD | Consultora en Gestión Estratégica e Investigadora</strong>';
+        document.getElementById('nav-home').href = '/es/';
+        document.getElementById('nav-home').textContent = 'Inicio';
+        document.getElementById('nav-services').href = '/es/#services';
+        document.getElementById('nav-services').textContent = 'Servicios';
+        document.getElementById('nav-publications').href = '/es/#publications-section';
+        document.getElementById('nav-publications').textContent = 'Publicaciones';
+        document.getElementById('nav-about').href = '/es/about/';
+        document.getElementById('nav-about').textContent = 'Acerca de & CV';
+        document.getElementById('lang-switch').href = '/';
+        document.getElementById('lang-switch').title = 'View in English';
+        document.getElementById('lang-switch').textContent = 'EN';
+        document.getElementById('copyright').innerHTML = '&copy; 2026 Dra. Jazmín Díaz-Barrios. Todos los derechos reservados.';
+    }
+})();
+</script>
+
+</body>
+</html>
