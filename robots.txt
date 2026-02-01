@@ -1,0 +1,8 @@
+# robots.txt for jazdibar.com
+# Allows all crawlers to index the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jazdibar.com/sitemap.xml
