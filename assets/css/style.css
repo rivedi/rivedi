@@ -115,20 +115,15 @@ nav a:hover {
     margin: 0 auto;
     padding: 2rem 5%;
 }
-/* Hero wrapper with blue background */
+/* Hero wrapper with blue background - truly full width */
 .hero-wrapper {
     background-color: #0a2540; /* Deep blue */
-    padding: 2rem;
-    margin: -2rem calc(-50vw + 50%); /* Extend to full viewport width */
+    padding: 2rem 5%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
     margin-bottom: 2rem;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
 }
-/* Adjust hero to stay centered */
+
 .hero {
     max-width: 900px;
     margin: 0 auto;
