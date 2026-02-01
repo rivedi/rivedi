@@ -115,7 +115,13 @@ nav a:hover {
     margin: 0 auto;
     padding: 2rem 5%;
 }
-
+/* Hero wrapper with blue background */
+.hero-wrapper {
+    background-color: #0a2540; /* Deep blue */
+    padding: 2rem;
+    margin: -2rem -5%; /* Extend to container edges */
+    margin-bottom: 2rem;
+}
 /* Hero Section - Enhanced with subtle gradient and color */
 .hero { 
     text-align: center; 
