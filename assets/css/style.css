@@ -205,6 +205,11 @@ nav a:hover {
 }
 /* Academic Publications Section */
 .publications-section { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.publications-section > p {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
 .pub-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem; }
 
 .pub-card {
