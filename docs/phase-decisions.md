@@ -65,3 +65,8 @@ Tracked in the Roadmap dashboard under the **Websites** tab (`tools-roadmaps` pr
 - [ ] **Blog redirect** — redirect or route `/blog/` subdirectory to the Blogspot (or migrate posts)
 - [ ] **TidyCal URLs** — current booking links use placeholder `tidycal.com/example/...`; need real URLs
 - [ ] **Mobile nav** — no hamburger menu; nav wraps on mobile (functional but rough)
+
+## Hub Note — 2026-08-02
+*Decision recorded in tools-roadmaps project hub.*
+
+Un-gitignored docs/phase-decisions.md so it syncs across machines; pushed using the rivedi account's token after a plain git push hit the wrong cached credential. Also fixed the hub registry's dir field, which pointed at a nonexistent jazdibar.com folder; the real checkout is named rivedi.
